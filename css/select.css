@@ -1,0 +1,58 @@
+body {
+    background-color: black;
+    background-image: url(../img/bar.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    display: table;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    width: 100%;
+  }
+
+  #yamazaki {
+    display: flex;
+    justify-content: center;
+  }
+
+.balloon1 {
+  padding: 20px;
+  color: #555;
+  font-size: 24px;
+  background: #e0edff;
+  border-radius: 15px;
+  width: auto;
+  display: flex;
+  justify-content:center;
+  margin: 10px auto;
+}
+
+.balloon1 p {
+  margin: 0;
+  padding: 0;
+}
+
+.room{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 225px;
+}
+
+.room2{
+  width: 150px;
+  height: 37px;
+  background:linear-gradient(rgb(236, 145, 9), #593000);
+  font-family: 'Luminari',sans-serif;
+  font-size: 24px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a{
+    color: white;
+    text-decoration:none;
+}
